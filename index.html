@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trivia!</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <script src="script.js"></script>
+        <script>
+            
+        </script>
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>Trivia<b>!</b></h1>
+        </div>
+
+        <div class="container">
+            <ul class="qlist">
+                <div class="section">
+                    <h2 class="section-header">Part 1: Multiple Choice </h2>
+                    <hr>
+                    <!-- TODO: Add multiple choice question here -->
+                    <div>
+                        <li>
+                            <h3 id="mcq1" class="mcq">
+                                The penetration testing software "Backtrack" was renamed to "Kali linux" as of what year?<br>
+                                <div>
+                                    <input class="radio-hidden" id="mcq1-radio1" type="radio" value="inc" name="mcq1-radioset" required/><button class="btn-unselected" id="mcq1-radio1-btn">2006</button>
+                                    <input class="radio-hidden" id="mcq1-radio2" type="radio" value="cor" name="mcq1-radioset"/><button class="btn-unselected" id="mcq1-radio2-btn">2007</button>
+                                    <input class="radio-hidden" id="mcq1-radio3" type="radio" value="inc" name="mcq1-radioset"/><button class="btn-unselected" id="mcq1-radio3-btn">2012</button>
+                                    <input class="radio-hidden" id="mcq1-radio4" type="radio" value="inc" name="mcq1-radioset"/><button class="btn-unselected" id="mcq1-radio4-btn">2013</button>
+                                </div>
+                                <div class="ans-hidden" id="mcq1-ans-hidden"></div>
+                            </h3>
+                        </li>
+                        
+                        <li>
+                            <h3 id="mcq2" class="mcq">
+                                The following are all reverse engineering software except
+                                <div>
+                                    <input class="radio-hidden" id="mcq2-radio1" type="radio" value="inc" name="mcq2-radioset" required/><button class="btn-unselected" id="mcq2-radio1-btn">Ghidra</button>
+                                    <input class="radio-hidden" id="mcq2-radio2" type="radio" value="inc" name="mcq2-radioset" /><button class="btn-unselected" id="mcq2-radio2-btn">Binary Ninja</button>
+                                    <input class="radio-hidden" id="mcq2-radio3" type="radio" value="cor" name="mcq2-radioset" /><button class="btn-unselected" id="mcq2-radio3-btn">TDM GCC</button>
+                                    <input class="radio-hidden" id="mcq2-radio4" type="radio" value="inc" name="mcq2-radioset" /><button class="btn-unselected" id="mcq2-radio4-btn">IDA Pro</button>
+                                </div>
+                                <div class="ans-hidden" id="mcq2-ans-hidden"></div>
+                            </h3>
+                        </li>
+                        
+                        <li>
+                            <h3 id="mcq3" class="mcq">
+                                The two levels of design for software architecture are:
+                                <div>
+                                    <input class="radio-hidden" id="mcq3-radio1" type="radio" value="cor" name="mcq3-radioset" required/><button class="btn-unselected" id="mcq3-radio1-btn">Data design and architectural design</button>
+                                    <input class="radio-hidden" id="mcq3-radio2" type="radio" value="inc" name="mcq3-radioset"/><button class="btn-unselected" id="mcq3-radio2-btn">Pattern design and data design</button>
+                                    <input class="radio-hidden" id="mcq3-radio3" type="radio" value="inc" name="mcq3-radioset"/><button class="btn-unselected" id="mcq3-radio3-btn">Coding design and architectural design</button>
+                                    <input class="radio-hidden" id="mcq3-radio4" type="radio" value="inc" name="mcq3-radioset"/><button class="btn-unselected" id="mcq3-radio4-btn">Architectural design and XP design</button>
+                                </div>
+                                <div class="ans-hidden" id="mcq3-ans-hidden"></div>
+                            </li>
+                        </h3>
+                        
+                        <li>
+                            <h3 id="mcq4" class="mcq">
+                                In software engineering, what does KDD stands for?
+                                <div>
+                                    <input class="radio-hidden" id="mcq4-radio1" type="radio" value="inc" name="mcq4-radioset" required/><button class="btn-unselected" id="mcq4-radio1-btn">Knowledge distortion of design</button>
+                                    <input class="radio-hidden" id="mcq4-radio2" type="radio" value="cor" name="mcq4-radioset" /><button class="btn-unselected" id="mcq4-radio2-btn">Knowledge discovery in databases</button>
+                                    <input class="radio-hidden" id="mcq4-radio3" type="radio" value="inc" name="mcq4-radioset" /><button class="btn-unselected" id="mcq4-radio3-btn">Knowledge development in the design</button>
+                                    <input class="radio-hidden" id="mcq4-radio4" type="radio" value="inc" name="mcq4-radioset" /><button class="btn-unselected" id="mcq4-radio4-btn">Knowledge detection of databases</button>
+                                </div>
+                                <div class="ans-hidden" id="mcq4-ans-hidden"></div>
+                            </li>
+                        </h3>
+                        
+                        <li>
+                            <h3 id="mcq5" class="mcq">
+                                What is the use of an Architectural Description Language (ADL)?
+                                <div>
+                                    <input class="radio-hidden" id="mcq5-radio1" type="radio" value="inc" name="mcq5-radioset" required/><button class="btn-unselected" id="mcq5-radio1-btn">Codes the architecture into a desired programming language</button>
+                                    <input class="radio-hidden" id="mcq5-radio2" type="radio" value="cor" name="mcq5-radioset"/><button class="btn-unselected" id="mcq5-radio2-btn">Provides a syntax for describing a software architecture</button>
+                                    <input class="radio-hidden" id="mcq5-radio3" type="radio" value="inc" name="mcq5-radioset"/><button class="btn-unselected" id="mcq5-radio3-btn">Helps design the language in which the software should be built</button>
+                                    <input class="radio-hidden" id="mcq5-radio4" type="radio" value="inc" name="mcq5-radioset"/><button class="btn-unselected" id="mcq5-radio4-btn">Helps design the language in which the software should be built</button>
+                                </div>
+                                <div class="ans-hidden" id="mcq5-ans-hidden"></div>
+                            </h3>
+                        </li>
+                </div>
+            </div>
+
+            <br>
+            <div class="section">
+                <h2 class="section-header">Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                     <li>
+                        <h3 id="frq1" class="frq">
+                             In the programming world, SaaS refers to "Software as a" what?
+                             <div class="submitfrq">
+                                <input id="frq1-text" type="text" class="frq-textbox" name="frq1-utxt" required>
+                                <button class="btn-unclicked" id="submitfrq1" type="submit">Submit</button>
+                            </div>
+                            <div class="ans-hidden" id="frq1-ans-hidden"></div>
+                        </h3>
+                    </li>
+                    
+                    <li>
+                        <h3 id="frq2" class="frq">
+                            The free, open-source operating system GNU is a recursive,
+                            or self-referential, acronym that stands for "GNU's Not ____" � or what operating system?
+                            <div class="submitfrq">
+                                <input id="frq2-text" type="text" class="frq-textbox" name="frq2-utxt" required>
+                                <button class="btn-submitfrq" id="submitfrq2" type="submit">Submit</button>
+                            </div>
+                            <div class="ans-hidden" id="frq2-ans-hidden"></div>
+                        </h3>
+                    </li>
+                    
+                    <li>
+                        <h3 id="frq3" class="frq">
+                            The NSA (National Security Agency) created a Software Reverse Engineering platform named?
+                            <div class="submitfrq">
+                                <input id="frq3-text" type="text" class="frq-textbox" name="frq3-utxt" required>
+                                <button class="btn-submitfrq" id="submitfrq3" type="submit">Submit</button>
+                            </div>
+                            <div class="ans-hidden" id="frq3-ans-hidden"></div>
+                        </h3>
+                    </li>
+                    
+                    <li>
+                        <h3 id="frq4" class="frq">
+                            Which popular operating system, launched in 1991 has is own mascot, Tux the Penguin?
+                            <div class="submitfrq">
+                                <input id="frq4-text" type="text" class="frq-textbox" name="frq4-utxt" required>
+                                <button class="btn-submitfrq" id="submitfrq4" type="submit">Submit</button>
+                            </div>
+                            <div class="ans-hidden" id="frq4-ans-hidden"></div>
+                        </h3>
+                    </li>
+                    
+                    <li>
+                        <h3 id="frq5" class="frq">
+                            Steve Jobs is famously one of the two men who co-founded Apple in 1976.
+                            The other co-founder was also named Steve. What was this other man's surname?
+                            <div class="submitfrq">
+                                <input id="frq5-text" type="text" class="frq-textbox" name="frq5-utxt" required>
+                                <button class="btn-submitfrq" id="submitfrq5" type="submit">Submit</button>
+                            </div>
+                            <div class="ans-hidden" id="frq5-ans-hidden"></div>
+                        </h3>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </body>
+
+</html>

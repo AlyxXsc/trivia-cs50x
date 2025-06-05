@@ -1,0 +1,229 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.cor-ans {
+    
+    color: rgb(45, 255, 45); 
+    border-radius: 6px;
+    padding: 8px;
+    margin: 1.5%;
+    margin-left: 5%;
+    visibility: visible;
+    width: fit-content; 
+}    
+
+.ans-hidden {
+    visibility: hidden;
+}
+
+.submitfrq {
+    margin: 1%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.submitfrq > button {
+    padding: 0.6%;
+    font-size: medium;
+    border-radius: 30px;
+    height: 40px;
+    border-width: 1px;
+    width: 80px;
+    background-color: rgba(237, 247, 255, 0.945);
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.submitfrq > button:hover {
+    background-color: rgba(203, 248, 233, 0.751);
+}
+
+.frq-textbox {
+    border-radius: 30px;
+    min-height: fit-content;
+    height: 30px;
+    width: 300px;
+    text-wrap: wrap;
+    font-size: medium;
+    padding: 8px;
+    border-width: 1px;
+    border-bottom-color: rgb(170, 214, 205);
+    border-top-color: rgb(173, 255, 229);
+    border-left-color: rgb(157, 255, 227);
+    border-right-color: rgb(166, 205, 200);
+    border-inline-color: aquamarine;
+}
+.frq-textbox-inc {
+    border-radius: 30px;
+    min-height: fit-content;
+    height: 30px;
+    width: 300px;
+    text-wrap: wrap;
+    font-size: medium;
+    padding: 8px;
+    border-width: 1px;
+    border-bottom-color: rgb(214, 170, 170);
+    border-top-color: rgb(255, 173, 173);
+    border-left-color: rgb(255, 157, 157);
+    border-right-color: rgb(205, 166, 166);
+    border-inline-color: rgb(255, 127, 127);
+}
+.frq-textbox-cor {
+    border-radius: 30px;
+    min-height: fit-content;
+    height: 30px;
+    width: 300px;
+    text-wrap: wrap;
+    font-size: medium;
+    padding: 8px;
+    border-width: 1.5px;
+    border-bottom-color: rgb(170, 214, 171);
+    border-top-color: rgb(173, 255, 176);
+    border-left-color: rgb(157, 255, 160);
+    border-right-color: rgb(166, 205, 169);
+    border-inline-color: rgb(127, 255, 129);
+}
+
+.inc-ans {
+    
+    color: rgb(255, 45, 45); 
+    border-radius: 6px;
+    padding: 8px;
+    margin: 1.5%;
+    margin-left: 5%;
+    visibility: visible;
+    width: fit-content; 
+}    
+
+.header {
+    background-color: rgba(25, 0, 210, 0.589);
+    border-radius: 16px;
+    font-size: 180%;
+    padding-bottom: 3%;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 3%;
+    margin: auto;
+    color: rgb(255, 255, 255);
+}    
+
+.radio-hidden {
+    visibility: hidden;
+}    
+
+.frq-textbox:hover {
+    border-color: black;
+    box-shadow: 1% red;
+}
+
+.frq-textbox:focus {
+    border-color: black;
+    box-shadow: 1% blue;
+}
+
+.header > h1 > b {
+    color: rgba(255, 94, 0, 0.548);
+}
+
+.qlist{
+    list-style-type: decimal;
+    list-style: decimal;
+    size: 100px;
+    font-size: x-large;
+    font-weight: 800;
+}
+.btn-unselected {
+    background-color: rgba(215, 255, 255, 0.421);
+    padding: 0.6%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: medium;
+    color: rgb(30, 30, 30);
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin: 0.6%;
+    width: 10%;
+    min-width: fit-content;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: rgba(128, 128, 128, 0.6);
+}
+
+.glow-element {
+    box-shadow: 0 0 10px 5px rgba(22, 132, 132, 0.7); /* Example glow */
+}
+
+.btn-selected-cor {
+    background-color: rgba(215, 255, 255, 0.421);
+    color: rgb(45, 255, 45); 
+    border-color: rgb(45, 255, 45); 
+    padding: 0.6%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: medium;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin: 0.6%;
+    width: 10%;
+    min-width: fit-content;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+.btn-selected-inc {
+    background-color: rgba(215, 255, 255, 0.421);
+    color: rgb(255, 45, 45); 
+    border-color: rgb(255, 45, 45); 
+    padding: 0.6%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: medium;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin: 0.6%;
+    width: 10%;
+    min-width: fit-content;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+button:hover {
+    box-shadow: 1% 5% 1% 5% rgb(8, 0, 58);
+    border-color: rgb(12, 121, 154);
+    color: rgb(12, 121, 154);
+    border-width: 1.5px;
+}
+
+.mcq > div {
+    flex-wrap: wrap;
+    margin: 0.6%;
+}
+
+/*
+.show{}
+
+.hide{}
+
+.container {}
+
+
+.frq {}
+
+*/
+
+.frq {
+    font-size: x-large;
+    padding: 0%;
+}
+
+.mcq {
+    font-size: x-large;
+    padding: 0%;
+}
+
+.section-header {
+    font-size: xx-large;
+    margin-left: 32vw;
+    margin-right: 32vw;
+}
