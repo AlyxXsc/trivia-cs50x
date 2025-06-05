@@ -73,7 +73,7 @@ Completing this Trivia project significantly enhanced my skills in:
 
 For any questions or further discussion regarding this project, please feel free to reach out to me:
 
-* **Email:** your.email@example.com
-* **GitHub:** [Your GitHub Profile Link]
+* **Email:** perpros614@gmail.com
+* **GitHub:** https://github.com/AlyxXsc/
 
 ---
